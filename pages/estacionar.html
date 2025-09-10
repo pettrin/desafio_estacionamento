@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veículos estacionados</title>
+    <script src="../assets/js/form.js"></script>
+    <link rel="stylesheet" href="../style/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <form name="formEstacionar" id="formEstacionar">
+        <div>
+          <h1>Estacionar veículo</h1>
+        </div>
+        <div>
+          <p>Preencha o formulário abaixo para estacionar um veículo:</p>
+        </div>
+        <div>
+          <div>
+            <label for="placa">Placa do veículo:</label>
+            <input type="text" id="placa" name="placa" required value="teste" />
+          </div>
+          <div>
+            <label for="modelo"> Modelo do veículo:</label>
+            <input
+              type="text"
+              id="modelo"
+              name="modelo"
+              required
+              value="teste"
+            />
+          </div>
+          <div>
+            <label for="numero_apartamento"> Numero do apartamento</label>
+            <input
+              type="text"
+              id="numero_apartamento"
+              name="numero_apartamento"
+              required
+              value="teste"
+            />
+          </div>
+          <div>
+            <label for="bloco"> Bloco</label>
+            <input type="text" id="bloco" name="bloco" required value="teste" />
+          </div>
+          <div>
+            <label for="nome_proprietario"> Nome do proprietário:</label>
+            <input
+              type="text"
+              id="nome_proprietario"
+              name="nome_proprietario"
+              required
+              value="teste"
+            />
+          </div>
+
+          <div>
+            <label for="numero_vaga"> Número da vaga:</label>
+            <input
+              type="text"
+              id="numero_vaga"
+              name="numero_vaga"
+              required
+              value="teste"
+            />
+          </div>
+          <div>
+            <button type="submit" onclick="handleSubmit()">Estacionar</button>
+          </div>
+        </div>
+      </form>
+      <a href="../index.html">Voltar ao menu principal</a>
+    </div>
+  </body>
+</html>
