@@ -12,4 +12,4 @@ Para testar, é só abrir o `index.html` no navegador e usar as páginas.
 Qualquer coisa, me chama!
 
 
-![Shrek](https://i.giphy.com/media/lCgprooLDVVKM/giphy.gif)
+![Shrek](https://media.tenor.com/IqaYZ9lIVpUAAAAM/shrek-smile.gif)
